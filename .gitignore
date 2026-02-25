@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Artifacts
+models/*.joblib
+models/*.json
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Env
+.env
